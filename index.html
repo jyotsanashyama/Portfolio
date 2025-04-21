@@ -4,10 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - iPortfolio Bootstrap Template</title>
+  <title>Jyotsana Shyama</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <link rel="stylesheet" href="assests/css/toggle.css">
+  <script src="assests/js/toggle.js"></script>
+
+  <!-- AOS Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Font Awesome for tech icons -->
+  <script src="https://kit.fontawesome.com/a2e0fa03f3.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -40,11 +51,12 @@
 
 <body class="index-page">
 
+  
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-pic.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/newimg3-1.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -62,20 +74,25 @@
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
 
         <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <!--<nav>
+          
+          <button id="theme-toggle" style="text-align: right; margin-right: 20px;">🌓</button>
+      </nav>-->
       </ul>
     </nav>
 
   </header>
 
+  
   <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/my-pic-front.jpg" alt="" data-aos="fade-in" class="">
+      
+      <img src="assets/img/imgNew-Photoroom1.jpg" alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Jyotsana Shyama</h2>
+        <h2 style="text-align: left; margin-left: 20px; color: white;">Jyotsana Shyama</h2>
         <p>I'm <span class="typed" data-typed-items="Competitive Coder, DSA Enthusiast, Open Source Contributer">3rd
             year B.Tech CSE Student</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
             class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
@@ -87,28 +104,38 @@
     <section id="about" class="about section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>
-          Hi, I'm Jyotsana Shyama, a 3rd-year B.Tech Computer Science student with a strong technical foundation and a
-          passion for problem-solving. My primary expertise lies in Data Structures and Algorithms (DSA), which help me
-          to develop efficient, optimized solutions to complex challenges. I have built practical knowledge in cloud
-          computing, particularly with AWS, enabling me to utilize these platforms for various cloud-based solutions.
-          <br><br>
-          I have foundational understanding of Artificial Intelligence and Machine Learning (AI/ML), where I exxplore
-          model-building and data manipulation to gain insights from data. My experience with Python and visualization
-          tools like Matplotlib and Seaborn allows me to transform raw data into clearand actionable visualizations.
-          <br><br>
-          I have gained extensive experience through competitive coding on platforms like LeetCode and CodeChef, where I
-          have sharpen my problem-solving skills.
-          My love for coding extends to open-source contributions and hackathons, where I actively seek opportunities to
-          collaborate on impactful projects, continuously expanding my skill set in C++, Python, and beyond.
-          <br><br>
-          Whether it's participating in hackathons, working on personal projects, or contributing to the open-source
-          community, I am eager to take on challenges that drive both my personal and professional development.
+      <div class="container section-title" data-aos="fade-up"
+        style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+        <h2 style="text-align: left; margin-left: 20px;">About</h2>
+        <p style="color: #333; line-height: 1.6;">
+          I am Jyotsana Shyama, a third-year B.Tech Computer Science student with a strong academic foundation and
+          hands-on experience in
+          Artificial Intelligence, Machine Learning, and intelligent system development. I am passionate about
+          leveraging data-driven approaches
+          to solve real-world problems and continuously enhancing my expertise in modern AI technologies.
+          <br>
+          My technical skill set includes supervised learning, Natural Language Processing (NLP), feature engineering,
+          model evaluation,
+          and deployment. I am proficient in tools and libraries such as Python, scikit-learn, TextBlob, NLTK,
+          Matplotlib, and Seaborn.
+          I have developed interactive AI applications using Streamlit and Flask, with experience in integrating these
+          into user-facing platforms.
+          <br>
+          In addition to my AI/ML work, I possess a strong command of Data Structures and Algorithms (DSA), consistently
+          refined through competitive
+          programming on platforms like LeetCode and CodeChef, and implemented using Python and C++.
+          <br>
+          I am well-versed in modern development tools and practices, including Docker for containerization, Git for
+          version control, and
+          Amazon Web Services (AWS) for scalable and cloud-based AI deployments.
+          <br>
+          With a continuous drive to learn and innovate, I am eager to contribute to impactful AI projects, collaborate
+          within dynamic teams,
+          and explore opportunities at the intersection of artificial intelligence, cloud computing, and scalable
+          application development.
         </p>
       </div><!-- End Section Title -->
-
+      <br><br><br>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
@@ -116,39 +143,43 @@
             <img src="assets/img/my-pic.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 content">
-            <h2>AI/ML Enthusiast</h2>
+            <h2 style="text-align: left; margin-left: 20px;">AI/ML Enthusiast</h2>
             <!--
             <p class="fst-italic py-3">
               I have hands-on experience in data preprocessing, model training and evaluation.
             </p>
           -->
-            <br>
+
             <div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>College:</strong> <span>Lovely Professional
-                      University</span></li>
+                      University, Punjab</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Computer Science and
                       Engineering</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong>
-                    <span>linkedin.com/in/jyotsanashyama</span>
+                    <a
+                      href="https://www.linkedin.com/in/jyotsanashyama"><span>www.linkedin.com/in/jyotsanashyama</span></a>
+
                   </li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Leetcode:</strong>
-                    <span>leetcode.com/u/jyotsanashyama/</span>
+                    <a href="https://leetcode.com/u/jyotsanashyama/"><span>leetcode.com/u/jyotsanashyama//</span></a>
+
                   </li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Language:</strong> <span> C++, Python, HTML,
+                  <!--<li><i class="bi bi-chevron-right"></i> <strong>Language:</strong> <span> C++, Python, HTML,
                       CSS</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Libraries:</strong><span>Git, GitHub, Matplotlib,
-                      NLTK, Seaborn</span></li>
+                      NLTK, Seaborn</span></li>-->
                   <li><i class="bi bi-chevron-right"></i> <strong>Country:</strong> <span>India</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>jyotsanashyama@gmail.com</span>
                   </li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong>
-                    <span>github.com/jyotsanashyama</span>
+                    <a href="https://github.com/jyotsanashyama"><span>github.com/jyotsanashyama</span></a>
+
                   </li>
                 </ul>
               </div>
@@ -211,135 +242,307 @@
 
     </section> /Stats Section -->
 
+
+
     <!-- Skills Section -->
+
+    <style>
+      /* Skills Grid */
+      .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      @media (max-width: 992px) {
+        .skills-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 576px) {
+        .skills-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .skill-card {
+        background: var(--card-bg);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        border: 1px solid var(--border-color);
+        transition: var(--transition);
+      }
+
+      .skill-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-hover);
+      }
+
+      .skill-title {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        color: var(--theme);
+      }
+
+      .skill-title i {
+        font-size: 1.4rem;
+      }
+
+      .skill-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+      }
+
+      .skill-item {
+        background: rgba(var(--theme-rgb), 0.08);
+        color: var(--theme);
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: var(--transition);
+      }
+
+      .skill-item:hover {
+        background: rgba(var(--theme-rgb), 0.2);
+        transform: translateY(-2px);
+      }
+
+      .skills-section {
+        /* Choose one background option above */
+
+        /* Update text colors */
+        --body-color: var(--skill-text, #2d3436);
+        --card-bg: #d7e8f0;
+        ;
+        --border-color: rgba(0, 0, 0, 0.08);
+
+        /* Skill item adjustments */
+        .skill-item {
+          background: var(--skill-bg);
+          color: var(--skill-text);
+          border: 1px solid var(--border-color);
+        }
+
+        /* Card styling */
+        .skill-card {
+          background: var(--card-bg);
+          box-shadow: 0 5px 30px rgba(0, 0, 0, 0.03);
+        }
+      }
+    </style>
+
+
     <section id="skills" class="skills section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Skills</h2>
-        <p>With a strong foundation in programming, machine learning, and cloud computing, I am equipped to develop
-          solutions that are both efficient and impactful.
-          My skills allow me to work across various areas, from building predictive models to optimizing performance and
-          contributing to meaningful tech projects.
-        </p>
+        <h2 style="text-align: left; margin-left: 20px;">Skills</h2>
+        <p>I specialize in AI/ML, data science, and cloud technologies, leveraging tools like Python,
+          scikit-learn, and AWS to build scalable, data-driven solutions. With expertise in DSA and NLP, I am passionate
+          about optimizing
+          performance and deploying intelligent applications.</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="section-container">
 
-        <div class="row skills-content skills-animation">
 
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>C++</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
+        <div class="skill-card">
+          <div class="skill-title"><i class="fas fa-users"></i> Soft Skills</div>
+          <div class="skill-tags">
+            <div class="tag">Leadership</div>
+            <div class="tag">Time Management</div>
+            <div class="tag">Problem-solving</div>
+            <div class="tag">Team Collaboration</div>
           </div>
+        </div>
 
-          <div class="col-lg-6">
+        
 
-            <div class="progress">
-              <span class="skill"><span>Python</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Seaborn</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Matplotlib</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
+        <div class="skill-card">
+          <div class="skill-title"><i class="fas fa-code"></i> Programming Languages</div>
+          <div class="skill-tags">
+            <div class="tag">C++</div>
+            <div class="tag">Python</div>
+            <div class="tag">HTML</div>
+            <div class="tag">CSS</div>
           </div>
+        </div>
 
+        <div class="skill-card">
+          <div class="skill-title"><i class="fas fa-tools"></i> Tools & Platforms</div>
+          <div class="skill-tags">
+            <div class="tag">Git</div>
+            <div class="tag">GitHub</div>
+            <div class="tag">Jupyter Notebook</div>
+            <div class="tag">VS Code</div>
+            <div class="tag">Docker</div>
+          </div>
+        </div>
+
+
+
+
+        <div class="skill-card">
+          <div class="skill-title"><i class="fas fa-brain"></i> AI/ML Stack</div>
+          <div class="skill-tags">
+            <div class="tag">Scikit-learn</div>
+            <div class="tag">NLTK</div>
+            <div class="tag">Text Preprocessing</div>
+            <div class="tag">Neural Networks</div>
+            <div class="tag">Matplotlib</div>
+            <div class="tag">Seaborn</div>
+            <div class="tag">NLP</div>
+            <div class="tag">Hyperparameter Tuning</div>
+          </div>
         </div>
 
       </div>
 
-    </section><!-- /Skills Section -->
+
+      <style>
+        body {
+          font-family: 'Segoe UI', sans-serif;
+          margin: 40px;
+          background-color: #f9f9f9;
+          color: #333;
+        }
+
+        h1 {
+          text-align: center;
+          margin-bottom: 40px;
+        }
+
+        .section-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 30px;
+        }
+
+        .skill-card {
+          background-color: #ffffff;
+          padding: 25px 30px;
+          border-left: 4px solid #007bff;
+          border-radius: 8px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .skill-title {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 15px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        .skill-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+
+        .tag {
+          background-color: #f4f6f8;
+          padding: 8px 15px;
+          border-radius: 20px;
+          font-size: 14px;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          white-space: nowrap;
+        }
+
+        @media (max-width: 1024px) {
+          .section-container {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+
+        @media (max-width: 768px) {
+          .section-container {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
 
 
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
 
-            <h3 class="resume-title ">Education</h3>
-            <div class="resume-item">
-              <h4>Computer Science and Engineering</h4>
-              <h5>2022 - 2026</h5>
-              <p><em>Lovely Professional University, Punjab, India</em></p>
-            </div><!-- End Resume Item -->
+      <!-- Resume Section -->
+      <section id="resume" class="resume section">
 
-            <h3 class="resume-title">Certifications</h3>
-            <div class="resume-item">
-              <h4>Data Structures and Algorithms</h4>
-              <h5>Duration: 64.5 hours</h5>
-            </div><!-- End Resume Item -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 style="text-align: left; margin-left: 20px;">Resume
+            <a href="assets/jyotsana_CV.pdf" download>
+              <i class="material-icons">download</i>
+          </h2>
 
-            <div class="resume-item">
-              <h4>Prompt Engineering for ChatGPT</h4>
-              <h5>Duration: 18 hours</h5>
-            </div><!-- End Resume Item -->
 
-            <div class="resume-item">
-              <h4>Fundamentals of Docker and Kubernetes</h4>
-              <h5>Duration: 2 hours</h5>
-            </div><!-- End Resume Item -->
+          </a>
 
-            <div class="resume-item">
-              <h4>Introduction to Large Language Models</h4>
-              <h5>Duration: 2 hours</h5>
-            </div><!-- End Resume Item -->
+        </div><!-- End Section Title -->
 
-            <div class="resume-item">
-              <h4>ChatGPT Advanced Data Analysis</h4>
-              <h5>Duration: 10 hours</h5>
-            </div><!-- End Resume Item -->
+        <div class="container">
 
+          <div class="row">
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+
+              <h3 class="resume-title ">Education</h3>
+              <div class="resume-item">
+                <h4>Lovely Professional University, Punjab, India</h4>
+                <h5>2022 - 2026</h5>
+                <p><em>Computer Science and Engineering</em></p>
+              </div>
+              
+              <div class="resume-item">
+                <h4>Rose Public School, Bihar, India</h4>
+                <h5>2021 - 2022</h5>
+                <p><em>Class 12</em></p>
+              </div>
+
+              <div class="resume-item">
+                <h4>Rose Public School, Bihar, India</h4>
+                <h5>2019 - 2020</h5>
+                <p><em>Class 10</em></p>
+              </div>
+              
+              <!-- End Resume Item -->
+
+              <h3 class="resume-title">Certifications</h3>
+              <div class="resume-item">
+                <h4>Data Structures and Algorithms</h4>
+                <h5>Duration: 64.5 hours</h5>
+              </div><!-- End Resume Item -->
+
+              <div class="resume-item">
+                <h4>Prompt Engineering for ChatGPT</h4>
+                <h5>Duration: 18 hours</h5>
+              </div><!-- End Resume Item -->
+
+              <div class="resume-item">
+                <h4>Fundamentals of Docker and Kubernetes</h4>
+                <h5>Duration: 2 hours</h5>
+              </div><!-- End Resume Item -->
+
+              <div class="resume-item">
+                <h4>Introduction to Large Language Models</h4>
+                <h5>Duration: 2 hours</h5>
+              </div><!-- End Resume Item -->
+
+              <div class="resume-item">
+                <h4>ChatGPT Advanced Data Analysis</h4>
+                <h5>Duration: 10 hours</h5>
+              </div><!-- End Resume Item -->
+              <!--
             <h3 class="resume-title">Projects</h3>
 
             <div class="resume-item pb-0">
@@ -361,48 +564,52 @@
               <p><em>Github Link: <a
                     href="https://github.com/jyotsanashyama/Adaptica_project">https://github.com/jyotsanashyama/Adaptica_project</a>
                 </em></p>
-              <p><em>Live Link: <a
-                    href="https://adaptica.netlify.app/dashboard">https://adaptica.netlify.app/dashboard</em></p>
+              <p><em>Live Link: <a href="https://adaptica-live.netlify.app/">https://adaptica-live.netlify.app/</a></em></p>
             </div>
 
+          -->
+
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="resume-title">Professional Experience</h3>
+              <div class="resume-item">
+                <h4>IBM Summer Training</h4>
+                <h5>June 2024 - July 2024</h5>
+                <p><em>Artificial Intelligence Trainee </em></p>
+                <ul>
+                  <li>Data Manipulation and Visualization: Learned data manipulation and visualization using Python
+                    Matplotlib library
+                    by creating charts, graphs and plots.</li>
+                  <li> Feature Extraction: Utilized CountVectorizer to convert text into numerical form for better model
+                    performance</li>
+                  <li> Predictive Modeling: Implemented machine learning models on different datasets from kaggle</li>
+                  <li> Tools and Libraries: Pandas, NumPy, Matplotlib, Textblob, NLTK, CountVectorizer, WordCloud</li>
+
+                </ul>
+              </div><!-- Edn Resume Item -->
+
+              <div class="resume-item">
+                <h4>GirlScript Summer of Code</h4>
+                <h5>June 2023 - August 2023</h5>
+                <p><em>Contributor</em></p>
+                <ul>
+                  <li>Open Source Contributions: Completed a 3-month internship,contributing to open-source projects on
+                    Github with
+                    GSSOC tags, resulting multiple accepted pull requests.</li>
+                  <li> Performance Optimization: Enhanced an internet speed checker tool by implementing multi-threading
+                    in Python,
+                    resulting in sequential tests and delivering more accurate average speed results.</li>
+                  <li>UI Redesign: Enhanced the main page of a fitness website, by fixing CSS styling and improving
+                    visual
+                    design</li>
+                  <li> Technologies: HTML, CSS, Python</li>
+                </ul>
+              </div><!-- Edn Resume Item -->
 
 
-          </div>
+            </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>IBM Summer Training</h4>
-              <h5>June 2024 - July 2024</h5>
-              <p><em>Artificial Intelligence </em></p>
-              <ul>
-                <li>Data Manipulation and Visualization: Learned data manipulation and visualization using Python
-                  Matplotlib library
-                  by creating charts, graphs and plots.</li>
-                <li> Feature Extraction: Utilized CountVectorizer to convert text into numerical form for better model
-                  performance.</li>
-                <li> Predictive Modeling: Implemented machine learning models on different datasets from kaggle.</li>
-                <li> Tools and Libraries: Pandas, NumPy, Matplotlib, Textblob, NLTK, CountVectorizer, WordCloud.</li>
-
-              </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>GirlScript Summer of Code</h4>
-              <h5>June 2023 - August 2023</h5>
-              <p><em>Contributor</em></p>
-              <ul>
-                <li>Open Source Contributions: Completed a 3-month internship,contributing to open-source projects on
-                  Github with
-                  GSSOC tags, resulting multiple accepted pull requests.</li>
-                <li> Performance Optimization: Enhanced an internet speed checker tool by implementing multi-threading
-                  in Python,
-                  resulting in sequential tests and delivering more accurate average speed results.</li>
-                <li>UI Redesign: Enhanced the main page of a fitness website, by fixing CSS styling and improving visual
-                  design.</li>
-                <li> Technologies: HTML, CSS, Python.</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
 
 
           </div>
@@ -411,30 +618,333 @@
 
         </div>
 
+      </section><!-- /Resume Section -->
+
+      <!--Projects section-->
+
+      <style>
+        body {
+          font-family: 'Segoe UI', sans-serif;
+          background-color: #f5f5f5;
+          margin: 0;
+          padding: 20px;
+        }
+
+        h2 {
+          text-align: center;
+          color: #333;
+          margin-bottom: 40px;
+        }
+
+        .projects-container {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 20px;
+          padding: 0 20px;
+        }
+
+        .project-card {
+          background-color: white;
+          border-radius: 12px;
+          overflow: hidden;
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-thumbnail img {
+          width: 100%;
+          height: 180px;
+          object-fit: cover;
+        }
+
+        .project-content {
+          padding: 20px;
+        }
+
+        .project-title {
+          font-size: 20px;
+          font-weight: bold;
+          color: #007BFF;
+          margin-bottom: 10px;
+        }
+
+        .project-description {
+          font-size: 14px;
+          color: #555;
+          margin-bottom: 15px;
+        }
+
+        .tech-stack {
+          margin-bottom: 15px;
+        }
+
+        .badge {
+          display: inline-flex;
+          align-items: center;
+          background-color: #e0e0e0;
+          color: #333;
+          padding: 6px 10px;
+          border-radius: 20px;
+          font-size: 12px;
+          margin: 3px;
+        }
+
+        .badge i {
+          margin-right: 6px;
+        }
+
+        .project-links a {
+          text-decoration: none;
+          color: #007BFF;
+          margin-right: 15px;
+          font-weight: 500;
+          transition: color 0.3s ease;
+        }
+
+        .project-links a:hover {
+          color: #0056b3;
+          text-decoration: underline;
+        }
+
+        .view-more {
+          text-align: center;
+          margin-top: 40px;
+        }
+
+        .view-more button {
+          background-color: #007BFF;
+          color: white;
+          border: none;
+          padding: 12px 24px;
+          border-radius: 8px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+
+        .view-more button:hover {
+          background-color: #0056b3;
+        }
+
+        .hidden {
+          display: none;
+        }
+      </style>
+
+      <section id="resume" class="resume section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 style="text-align: left; margin-left: 20px;">Projects</h2>
+        </div>
+
+        <div class="projects-container" id="project-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-aos="fade-up">
+            
+            <div class="project-content">
+              <div class="project-title">AI-powered digit recognition</div>
+              <div class="project-description">
+                A real-time digit classification system that enables users to draw numbers in the air with
+                hand gestures, providing a seamless, touch-free experience.
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-cuttlefish"></i>Python</span>
+                <span class="badge"><i class="fab fa-python"></i>TensorFlow</span>
+                <span class="badge"><i class="fab fa-bootstrap"></i>OpenCV</span>
+                <span class="badge"><i class="fab fa-bootstrap"></i>MediaPipe</span>
+                <span class="badge"><i class="fab fa-bootstrap"></i>NumPy</span>
+                <span class="badge"><i class="fab fa-bootstrap"></i>Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jyotsanashyama/AI-powered-digit-recognition">GitHub</a>
+                <!--<a href="#">Live Demo</a>-->
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            
+            <div class="project-content">
+              <div class="project-title">Twitter Sentiment Analysis</div>
+              <div class="project-description">
+                A sentiment analysis application to classify Pfizer tweets as positive, negative, or neutral.
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-python"></i>Python</span>
+                <span class="badge"><i class="fas fa-brain"></i>TextBlob</span>
+                <span class="badge"><i class="fas fa-code"></i>Streamlit</span>
+                <span class="badge"><i class="fas fa-code"></i>Pandas</span>
+                <span class="badge"><i class="fas fa-code"></i>NumPy</span>
+                <span class="badge"><i class="fas fa-code"></i>Matplotlib</span>
+                <span class="badge"><i class="fas fa-code"></i>NLTK</span>
+                <span class="badge"><i class="fas fa-code"></i>Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jyotsanashyama/Twitter-Sentiment-Analysis">GitHub</a>
+                <a href="https://lnkd.in/dVdn6c4y">Docker Hub Image</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="project-content">
+              <div class="project-title">Adaptica, Adaptive Learning Platform</div>
+              <div class="project-description">
+                Developed an educational platform that offers course information by integrating
+                top YouTube videos as course references.
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-cuttlefish"></i>Keras</span>
+                <span class="badge"><i class="fas fa-cogs"></i>Python</span>
+                <span class="badge"><i class="fas fa-lightbulb"></i>NLTK</span>
+                <span class="badge"><i class="fas fa-lightbulb"></i>Scikit-learn</span>
+                <span class="badge"><i class="fas fa-lightbulb"></i>HTML</span>
+                <span class="badge"><i class="fas fa-lightbulb"></i>CSS</span>
+                <span class="badge"><i class="fas fa-lightbulb"></i>Pandas</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jyotsanashyama/Adaptica_project">GitHub</a>
+                <a href="https://adaptica-live.netlify.app/">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hidden Projects -->
+
+          <div class="project-card hidden" data-aos="fade-up" data-aos-delay="300">
+            
+            <div class="project-content">
+              <div class="project-title">Dog vs Cat Image Recognition using CNN</div>
+              <div class="project-description">
+                This project implements a Convolutional Neural Network (CNN) for classifying images of cats and dogs
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-cuttlefish"></i>Python</span>
+                <span class="badge"><i class="fas fa-tree"></i>Scikit-learn</span>
+                <span class="badge"><i class="fas fa-tree"></i>TensorFlow</span>
+                <span class="badge"><i class="fas fa-tree"></i>Keras</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jyotsanashyama/Dog-vs-Cat-Image-Recognition-using-CNN">GitHub</a>
+              </div>
+            </div>
+          </div>
 
 
-      </div>
+          <div class="project-card hidden" data-aos="fade-up" data-aos-delay="300">
+            
+            <div class="project-content">
+              <div class="project-title">Customer Retention Prediction using Artificial Neural Network (ANN)</div>
+              <div class="project-description">
+                This project predicts whether a customer of a bank will stay or leave the bank based on various parameters, using Artificial Neural Network (ANN)
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-cuttlefish"></i>Python</span>
+                <span class="badge"><i class="fas fa-tree"></i>Scikit-learn</span>
+                <span class="badge"><i class="fas fa-tree"></i>TensorFlow</span>
+                <span class="badge"><i class="fas fa-tree"></i>Keras</span>
+                <span class="badge"><i class="fas fa-tree"></i>NumPy</span>
+                <span class="badge"><i class="fas fa-tree"></i>Pandas</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jyotsanashyama/Dog-vs-Cat-Image-Recognition-using-CNN">GitHub</a>
+              </div>
+            </div>
+          </div>
 
-    </section><!-- /Resume Section -->
+
+          <div class="project-card hidden" data-aos="fade-up" data-aos-delay="300">
+            
+            <div class="project-content">
+              <div class="project-title">Fraudulent Transaction Detection</div>
+              <div class="project-description">
+                Machine Learning model to detect fraudulent transactions for financial company in a large dataset
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-cuttlefish"></i>Python</span>
+                <span class="badge"><i class="fas fa-tree"></i>Scikit-learn</span>
+                <span class="badge"><i class="fas fa-tree"></i>NumPy</span>
+                <span class="badge"><i class="fas fa-tree"></i>Pandas</span>
+                <span class="badge"><i class="fas fa-tree"></i>SMOTE</span>
+                <span class="badge"><i class="fas fa-tree"></i>Seaborn</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jyotsanashyama/Fraudulent-Transaction-Detection">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card hidden" data-aos="fade-up" data-aos-delay="400">
+            
+            <div class="project-content">
+              <div class="project-title"> Metro Network</div>
+              <div class="project-description">
+                An application that calculates the shortest path between two stations using Dijkstra’s algorithm
+              </div>
+              <div class="tech-stack">
+                <span class="badge"><i class="fab fa-python"></i>C++</span>
+                <span class="badge"><i class="fas fa-brain"></i>Graph</span>
+                <span class="badge"><i class="fas fa-tasks"></i>Priority Queue</span>
+                <span class="badge"><i class="fas fa-brain"></i>Lists</span>
+                <span class="badge"><i class="fas fa-brain"></i>Arrays</span>
+              </div>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live Demo</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- View More Projects Button -->
+        <div class="view-more">
+          <button onclick="toggleProjects(this)">View More Projects</button>
+        </div>
+
+        <!-- AOS animation + toggle script -->
+        <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+        <script>
+          AOS.init();
+
+          function toggleProjects(button) {
+            const hiddenProjects = document.querySelectorAll('.project-card.hidden');
+            const isHidden = hiddenProjects[0].style.display === '' || hiddenProjects[0].style.display === 'none';
+
+            hiddenProjects.forEach(card => {
+              card.style.display = isHidden ? 'block' : 'none';
+            });
+
+            button.textContent = isHidden ? 'Show Less' : 'View More Projects';
+          }
+        </script>
+
+      </section>
 
 
 
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section light-background">
 
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 style="text-align: left; margin-left: 20px;">Certificates</h2>
 
+        </div><!-- End Section Title -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
+        <div class="container">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Certificates</h2>
-
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <!--
+          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+            <!--
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
@@ -443,85 +953,85 @@
             <li data-filter=".filter-books">Books</li>
           </ul><End Portfolio Filters -->
 
-          <div class="row gy-6 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-6 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="https://www.udemy.com/certificate/UC-c05e9198-d868-4cd7-a149-a222ea114f35/">
-                  <img src="assets/img/dsa.jpg" class="img-fluid" alt="">
-                </a>
-              </div>
-            </div><!-- End Portfolio Item -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="portfolio-content h-100">
+                  <a href="https://www.udemy.com/certificate/UC-c05e9198-d868-4cd7-a149-a222ea114f35/">
+                    <img src="assets/img/dsa.jpg" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <a href="">
-                  <img src="assets/img/docker.jpg" class="img-fluid" alt="">
-                </a>
-              </div>
-            </div><!-- End Portfolio Item -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-product">
+                <div class="portfolio-content h-100">
+                  <a href="">
+                    <img src="assets/img/docker.jpg" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid"
-                  alt="">
-                <a href="">
-                  <img src="assets/img/mongodb.jpg" class="img-fluid" alt="">
-                </a>
-              </div>
-            </div><!-- End Portfolio Item -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-branding">
+                <div class="portfolio-content h-100"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid"
+                    alt="">
+                  <a href="">
+                    <img src="assets/img/mongodb.jpg" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <a href="">
-                  <img src="assets/img/data-analysis.jpg" class="img-fluid" alt="">
-                </a>
-              </div>
-            </div><!-- End Portfolio Item -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-books">
+                <div class="portfolio-content h-100">
+                  <a href="">
+                    <img src="assets/img/data-analysis.jpg" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="">
-                  <img src="assets/img/prompt.jpg" class="img-fluid" alt="">
-                </a>
-              </div>
-            </div><!-- End Portfolio Item -->
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="portfolio-content h-100">
+                  <a href="">
+                    <img src="assets/img/prompt.jpg" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <a href="">
-                  <img src="assets/img/ibm.jpg" class="img-fluid" alt="">
-                </a>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
+              <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="portfolio-content h-100">
+                  <a href="">
+                    <img src="assets/img/ibm.jpg" class="img-fluid" alt="">
+                  </a>
+                </div>
+              </div><!-- End Portfolio Item -->
 
 
-          </div><!-- End Portfolio Container -->
+
+
+            </div><!-- End Portfolio Container -->
+
+          </div>
 
         </div>
 
-      </div>
-
-    </section><!-- /Portfolio Section -->
+      </section><!-- /Portfolio Section -->
 
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Feel free to reach out for tech collaborations, questions, or just a chat about coding and projects!</p>
-      </div><!-- End Section Title -->
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2 style="text-align: left; margin-left: 20px;">Contact</h2>
+          <p>Feel free to reach out for tech collaborations, questions, or just a chat about coding and projects!</p>
+        </div><!-- End Section Title -->
 
 
 
-      <div class="container d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="container d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+          <div class="row gy-4">
 
-          <!--
+            <!--
           <div class="col-lg-7">
             <form action="https://formspree.io/f/movqevez" method="post" class="php-email-form">
               <div class="row gy-4">
@@ -562,30 +1072,30 @@
 
 
 
-          <form action="https://formspree.io/f/movqevez" method="POST">
-            <label>
-              Your Name:
-              <input type="text" name="name" required>
-            </label>
-            <label>
-              Your Email:
-              <input type="email" name="email" required>
-            </label>
-            <label>
-              Subject:
-              <input type="text" name="subject" required>
-            </label>
-            <label>
-              Your Message:
-              <textarea name="message" required></textarea>
-            </label>
-            <button type="submit">Send</button>
-          </form>
+            <form action="https://formspree.io/f/movqevez" method="POST">
+              <label>
+                Your Name:
+                <input type="text" name="name" required>
+              </label>
+              <label>
+                Your Email:
+                <input type="email" name="email" required>
+              </label>
+              <label>
+                Subject:
+                <input type="text" name="subject" required>
+              </label>
+              <label>
+                Your Message:
+                <textarea name="message" required></textarea>
+              </label>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+
         </div>
 
-      </div>
-
-    </section><!-- /Contact Section -->
+      </section><!-- /Contact Section -->
 
   </main>
   <!--
